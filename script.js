@@ -1,24 +1,64 @@
-function logger (text) {
-    /* let text = hello */
-    console.log (text)
+/* let array = ["alma" , 12 , false , null]
+console.log (array) */
+
+/* let stringArray = ["alma" , "körte" , "banán"]
+console.log(stringArray[0]) */
+
+/*let myObj = {
+    key1: "value1",
+    key2: "value2",
+    key3: 15,
+    key4: 600,
 }
 
-/*logger('hello')
-logger('szia') */
+console.log (myObj.key1)
 
-function logTheSumOfTwoNumbers(x, y) /* camelCase */ { 
-/* let x = 1
-let y = 2 */
+let myFacebook = {
+    name: "Bernadett Hamza",
+    age: 23,
+    location: "Debrecen",
+    friends: ["a","b","c"],
+    favouriteMovie: [
+        {
+            title: "Harry Potter",
+            year: 2001,
+            casts: [
+                "Harry Potter",
+                "Ronald Weasley",
+                "Hedvig"
+            ]
+        }
+    ]
 
-console.log(x + y);
 }
-/* lofTheSumOfTwoNumbers(1, 2); */
 
-function sumTwoNumbers(x , y) {
-    let sum = 0;
-    sum = x + y;
+console.log (myFacebook.favouriteMovie) */
 
-    return sum;
+/* function positiveOrNegative (number) {
+    if (number < 0) {
+        return "negative"
+    } else if (number > 0) { 
+        return "positive"
+    } else {
+        return "zero"
+    }
+}*/
+function logger(text) {
+    console.log(text)
+}
+  
+/*logger (positiveOrNegative(0)) */
+
+function decideIfBeerIsGood(beer) {
+    if (beer.price < 340) {
+        return true
+    } else {
+        return false
+    }
 }
 
-logger(sumTwoNumbers(10, 5))
+let dreher = { name: "dreher", price: 349}
+let soproni = { name: "soproni", price: 329}
+let borsodi = { name: "borsodi", price: 339}
+
+logger(decideIfBeerIsGood(dreher))
