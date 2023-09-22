@@ -22,7 +22,7 @@ let rootElement = document.querySelector ('#root')
         <div class = "country">
             <h2> ${countryName} </h2>
             <p> population: ${countryPop} </p>
-            <a> area: ${countryArea} </a>
+            <p> area: ${countryArea} </p>
 
         </div>
         `)
