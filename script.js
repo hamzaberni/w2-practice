@@ -1,64 +1,22 @@
-/* let array = ["alma" , 12 , false , null]
-console.log (array) */
+console.log ("loaded")
 
-/* let stringArray = ["alma" , "körte" , "banán"]
-console.log(stringArray[0]) */
+let rootElement = document.querySelector ('#root')
+// console.log (rootElement)
 
-/*let myObj = {
-    key1: "value1",
-    key2: "value2",
-    key3: 15,
-    key4: 600,
-}
+/*let htmlContent = "<h2>Hello world, my name is Berni</h2>"
 
-console.log (myObj.key1)
+rootElement.insertAdjacentHTML('beforeend' , htmlContent)
 
-let myFacebook = {
-    name: "Bernadett Hamza",
-    age: 23,
-    location: "Debrecen",
-    friends: ["a","b","c"],
-    favouriteMovie: [
-        {
-            title: "Harry Potter",
-            year: 2001,
-            casts: [
-                "Harry Potter",
-                "Ronald Weasley",
-                "Hedvig"
-            ]
-        }
-    ]
+/*let counter = 0;
 
-}
+while (counter < 10) {
+    rootElement.insertAdjacentHTML('beforeend' , htmlContent)
+    counter++;
+} 
 
-console.log (myFacebook.favouriteMovie) */
+let array = ["alma" , "körte" , "eper" , "dinnye" , "banán" , "barack"]
 
-/* function positiveOrNegative (number) {
-    if (number < 0) {
-        return "negative"
-    } else if (number > 0) { 
-        return "positive"
-    } else {
-        return "zero"
-    }
-}*/
-function logger(text) {
-    console.log(text)
-}
-  
-/*logger (positiveOrNegative(0)) */
+ for (let index = 0; index < array.length; counter++) {
+    rootElement.insertAdjacentHTML('beforeend' , <h2> ${array[index]} </h2>");
 
-function decideIfBeerIsGood(beer) {
-    if (beer.price < 340) {
-        return true
-    } else {
-        return false
-    }
-}
-
-let dreher = { name: "dreher", price: 349}
-let soproni = { name: "soproni", price: 329}
-let borsodi = { name: "borsodi", price: 339}
-
-logger(decideIfBeerIsGood(dreher))
+ } */
